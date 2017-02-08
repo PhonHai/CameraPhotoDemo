@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.haiphon.cameraphotodemo.PhotoActivity">
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/take_photo"
+       android:text="Take Photo"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choose_photo"
+        android:text="Choose Photo"/>
+
+    <ImageView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/ic_launcher"
+        android:scaleType="fitXY"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+</LinearLayout>
